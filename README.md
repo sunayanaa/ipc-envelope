@@ -10,7 +10,7 @@ resumed or re-run incrementally.
 All audio is AI-generated; no real recordings are used.
 
 - **Source prompts**: 200 text prompts sampled from MusicCaps via
-  `df.sample(n=200, random_state=42)`.
+  `df.sample(n=200, random_state=42)`. The used prompts are available in `musiccaps_prompts_used.xlsx`
 - **Generators and corpus** (431 ten-second clips at 16 kHz, produced by
   `spl00_data_generation.py`):
   - **MusicGen-medium**: 265 clips, all 200 prompts at variation 0 (the
